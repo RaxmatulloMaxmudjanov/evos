@@ -1,0 +1,113 @@
+.menu{
+    width: 100%;
+    height: 100vh;
+    background-color: #f6f8f9;
+    text-align: center;
+}
+
+.menu h1{
+    font-size: 38px;
+    padding-top: 145px;
+}
+
+
+.menu_item{
+    width: 100%;
+    height: 500px;
+    background-color: #f6f8f9 ;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    gap: 30px;
+}
+
+.menu_items{
+    width: 277px;
+    height: 400px;
+    background-color: #fff;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.menu_items:hover{
+    box-shadow: 0px 4px 10px #999;
+}
+
+.menu_items:first-child{
+    margin-left: 350px;
+}
+
+.menu_items:last-child{
+    margin-right: 30px;
+}
+
+.menu_items_img{
+    width: 277px;
+    height: 192px;
+}
+
+.menu_items_img img{
+    width: 277px;
+    height: 192px;
+}
+
+.menu_items_nomi{
+    width: 247px;
+    height: 50px;
+    text-align-last: left;
+    display: flex;
+    align-items: center;
+}
+
+.menu_items_nomi h2{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.menu_items_batafsil{
+    width: 257px;
+    height: 35px;
+    text-align: left;
+}
+
+.menu_items_batafsil p{
+    color: #9AA6AC;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.menu_items_narxi{
+    width: 257px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.menu_items_narxi b {
+    color: #309B42;
+}
+
+.menu_items button{
+    width: 248px;
+    height: 48px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all .3s;
+}
+
+.menu_items button:hover{
+    background-color: #f1c40f;
+}
+
+.menu_item::-webkit-scrollbar{
+    display: none;
+}

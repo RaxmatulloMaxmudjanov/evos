@@ -1,0 +1,231 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    position: relative;
+}
+
+.header_left {
+    width: 641px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link_a_1 {
+    color: black;
+}
+
+.header_left .link_1 {
+    color: #309B42;
+}
+
+.link_a_2 {
+    color: black;
+}
+
+.header_left .link_2 {
+    color: #309B42;
+}
+
+.link_a_3 {
+    color: black;
+}
+
+.header_left .link_3 {
+    color: #309B42;
+}
+
+.link_a_4 {
+    color: black;
+}
+
+.header_left .link_4 {
+    color: #309B42;
+}
+
+.link_a_5 {
+    color: black;
+}
+
+.header_left .link_5 {
+    color: #309B42;
+}
+
+.link_a_6 {
+    color: black;
+}
+
+.header_left .link_6 {
+    color: #309B42;
+}
+
+.header_left a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.header_left img {
+    cursor: pointer;
+    width: 120px;
+}
+
+.header_right {
+    width: 598px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_right p {
+    width: 180px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f8f9;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.header_right .location {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.header_right .down {
+    margin-left: 10px;
+    color: #666;
+}
+
+.header_right button {
+    width: 120px;
+    height: 48px;
+    border: none;
+    font-weight: 900;
+    font-size: 15px;
+    color: #fff;
+    background-image: linear-gradient(20deg, rgb(112, 12, 183), rgb(122, 7, 100));
+    border-radius: 5px;
+}
+
+.header_right .savat {
+    width: 104px;
+    height: 48px;
+    font-weight: 500;
+}
+
+.header_right .savat .bag {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.header_right b {
+    width: 82px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    background-color: #f6f8f9;
+    border-radius: 5px;
+}
+
+.header_right b .dovn_2 {
+    font-size: 20px;
+    color: #666;
+}
+
+.header_right h3 {
+    width: 48px;
+    height: 43px;
+    background-color: #f6f8f9;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_right .user_hover {
+    width: 232px;
+    height: 138px;
+    background-color: #309B42;
+    position: absolute;
+    top: 105px;
+    z-index: 1;
+    padding: 10px 20px;
+    right: 80px;
+    border-radius: 5px;
+    display: none;
+}
+
+.header_right .user_hover .user_1_hover {
+    width: 200px;
+    height: 51px;
+    background-color: #f6f8f9;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 4px 0;
+    border-radius: 5px;
+}
+
+.header_right .user_hover .user_1_hover img{
+    width: 24px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.header_right .user_hover .user_2_hover{
+    width: 200px;
+    height: 51px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 5px;
+} 
+
+.header_right .user_hover .user_2_hover .login {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+.header .manzil {
+    position: absolute;
+    width: 256px;
+    height: 60px;
+    background-color: #fff;
+    top: 75px;
+    left: 830px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+
+.header .manzil h5 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.header .manzil .plus {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.header_left .active {
+    color: #309B42;
+}
